@@ -10,13 +10,13 @@ The goal is to build a classification model that can accurately identify the nat
 
 The dataset typically includes numeric features extracted from tumor images, such as:
 
-Radius: mean of distances from center to points on the perimeter
-Texture: standard deviation of gray-scale values
-Perimeter: length of the tumor boundary
-Area: size of the tumor
-Smoothness: local variation in radius lengths
-Compactness, Concavity, Concave points: shape characteristics
-Symmetry and Fractal dimension: structural patterns
+- Radius: mean of distances from center to points on the perimeter
+- Texture: standard deviation of gray-scale values
+- Perimeter: length of the tumor boundary
+- Area: size of the tumor
+- Smoothness: local variation in radius lengths
+- Compactness, Concavity, Concave points: shape characteristics
+- Symmetry and Fractal dimension: structural patterns
 
 The target variable indicates:
 
