@@ -1,5 +1,33 @@
 # ML-Cancer-Dataset-Sklearn
 
+The Breast Cancer Dataset is a widely used dataset for predicting whether a tumor is malignant or benign based on clinical features.
+
+## Objective
+
+The goal is to build a classification model that can accurately identify the nature of a tumor to assist in early diagnosis and treatment planning.
+
+### Features
+
+The dataset typically includes numeric features extracted from tumor images, such as:
+
+Radius: mean of distances from center to points on the perimeter
+Texture: standard deviation of gray-scale values
+Perimeter: length of the tumor boundary
+Area: size of the tumor
+Smoothness: local variation in radius lengths
+Compactness, Concavity, Concave points: shape characteristics
+Symmetry and Fractal dimension: structural patterns
+
+The target variable indicates:
+
+0 → Benign tumor
+1 → Malignant tumor
+
+This dataset is often used to evaluate machine learning models for medical diagnosis tasks.
+
+---
+
+### Results 
 **1.Logistic Regression:**
 
 Scaling Technique used:
