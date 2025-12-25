@@ -1,10 +1,18 @@
-# ML-Cancer-Dataset-Sklearn
+# Breast Cancer Classification Dataset
 
-The Breast Cancer Dataset is a widely used dataset for predicting whether a tumor is malignant or benign based on clinical features.
+## Overview
+This project uses the **Breast Cancer dataset** from scikit-learn to predict whether a tumor is **malignant** or **benign** based on various clinical features. The dataset is commonly used in machine learning for classification tasks related to medical diagnosis.
 
-## Objective
+## Loading the Dataset
+The dataset can be loaded directly from scikit-learn as a **pandas DataFrame**:
 
-The goal is to build a classification model that can accurately identify the nature of a tumor to assist in early diagnosis and treatment planning.
+```python
+from sklearn.datasets import load_breast_cancer
+
+# Load dataset as a DataFrame
+data = load_breast_cancer(as_frame=True)
+df = data.frame
+```
 
 ### Features
 
